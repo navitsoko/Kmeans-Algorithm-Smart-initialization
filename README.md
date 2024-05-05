@@ -44,6 +44,11 @@ from the K-means++ algorithm implemented in kmeans_pp.py.
 5. Interfacing with the C extension - Importing C module mykmeanssp, calling fit() method with passing the initial centroids, the datapoints and other
 arguments if needed, and getting the final centroids returned by fit().
 6. Outputting results.
+   
+   ** ** output ** **
+• The first line will be the indices of the observations chosen by the K-means++ algorithm as the initial centroids. Observation’s index is given by the first column in each
+input file.
+• The second line onwards will be the calculated final centroids from the K-means algorithm, separated by a comma, such that each centroid is in a line of its own.
 
 ### kmeansmodule.c
 The C extension which will be mainly, the implementation of the K-means-clustering algorithm (another repository). excluding step 1 which will be replaced by the K-means++ algorithm result.
