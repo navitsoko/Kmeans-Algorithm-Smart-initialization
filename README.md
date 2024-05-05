@@ -45,9 +45,10 @@ from the K-means++ algorithm implemented in kmeans_pp.py.
 arguments if needed, and getting the final centroids returned by fit().
 6. Outputting results.
    
-   ** ** output ** **
+#### output
 • The first line will be the indices of the observations chosen by the K-means++ algorithm as the initial centroids. Observation’s index is given by the first column in each
 input file.
+
 • The second line onwards will be the calculated final centroids from the K-means algorithm, separated by a comma, such that each centroid is in a line of its own.
 
 ### kmeansmodule.c
