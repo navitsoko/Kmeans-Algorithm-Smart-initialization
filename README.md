@@ -57,7 +57,7 @@ This is the build used to create the *.so file that will allow kmeans_pp.py to i
 
 # Build and Running
  To build the Python extension run: setup.py build_ext --inplace
- For example run : 'kmeans_pp.py 3 100 0.01 input_1.txt input_2.txt'
+ For example run : kmeans_pp.py 3 100 0.01 input_1.txt input_2.txt
  
 
  
