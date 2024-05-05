@@ -7,7 +7,7 @@ The K-means algorithm is a popular clustering method for finding a partition of 
 
 Given a set of N datapoints x1, x2, . . . , xN ∈ Rd , the goal is to group the data into K ∈ N clusters, each datapoint is assigned to exactly one cluster and the number of clusters K is such that 1 < K < N. Each cluster k is represented by it’s centroid which is the mean µk ∈ Rd of the cluster’s members.
 
- # K-means++ Algorithm
+ # The K-means++ Algorithm
  
  1. Choose one center uniformly at random among the data point.
  2. For each data point x not chosen yet, compute D(x), the distance between x and the nearest center that has already been chosen.
@@ -15,7 +15,7 @@ Given a set of N datapoints x1, x2, . . . , xN ∈ Rd , the goal is to group the
  4. Repeat Steps 2 and 3 until k centers have been chosen.
  5. Now that the initial centers have been chosen, proceed using standard k-means clustering.
 
-# K-means Algorithm
+# The K-means Algorithm
 Initialize centroids as first k datapoints: µk = xk, ∀k ∈ K.
 repeat:
 Assign every xi to the closest cluster k: argmin_k d(xi, µk), ∀k 1 ≤ k ≤ K.
