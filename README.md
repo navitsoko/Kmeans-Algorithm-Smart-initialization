@@ -1,4 +1,4 @@
-# Kmeans-Algorithm
+# Kmeans++ Algorithm
  The K-means++ algorithm is used to choose initial centroids for the K-means algorithm.
  The mplementation of Kmeans++ algorithm is in Python and integrated with the K-means-clustering algorithm ported to a C extension using the C API.
 
