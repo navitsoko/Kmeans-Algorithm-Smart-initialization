@@ -23,11 +23,7 @@ double** fit_c (double** K_list, double **points_list,int k,int iter,int d,int P
         double **arr;
         double **oldArr;
         double **newArr;
-
-
-
-
-
+        
         arr = points_list;
         oldArr = K_list;
 
